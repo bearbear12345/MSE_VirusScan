@@ -24,7 +24,9 @@ File: MSE VirusScan.bat
 How to configure:
 
 1. Open up your preferred text editor
+
 2. Open the file "MSE VirusScan.bat" (Or whatever you renamed it to)
+
 3. Configure Variables
    - If MSE is installed to a custom path, change the variable of SecurityEssentialsDirectory, removing quotes.
 
@@ -47,7 +49,7 @@ How to configure:
 
 
 
-
+===================================================
 Script by Andrew Wong (bearbear12345)
 
 Email: andrew.j.wong@outlook.com
