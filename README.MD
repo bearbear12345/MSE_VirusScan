@@ -1,4 +1,8 @@
+===================================================
 ==MICROSOFT SECURITY ESSENTIALS VIRUS SCAN SCRIPT==
+===================================================
+
+[WINDOWS] [MSE] Virus Scan Script for Microsoft Security Essentials
 
 This scan script will firstly update the MSE Virus Definitions, then start a scan, depending on the configurations.
 After the scan completes, by default, after 3 minutes the computer will turn off. A startup VBS file will be created which will run and delete itself on the next login of the account used to scan, notifying you of the results again.
