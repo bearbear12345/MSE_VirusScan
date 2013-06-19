@@ -22,6 +22,7 @@ File: MSE VirusScan.bat
 
 
 How to configure:
+
 1. Open up your preferred text editor
 2. Open the file "MSE VirusScan.bat" (Or whatever you renamed it to)
 3. Configure Variables
@@ -49,6 +50,6 @@ How to configure:
 
 Script by Andrew Wong (bearbear12345)
 
-Email: andrew.j.wong@outlook.com)
+Email: andrew.j.wong@outlook.com
 
 Skype: aw929292929683244
