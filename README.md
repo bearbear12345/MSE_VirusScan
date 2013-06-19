@@ -43,7 +43,7 @@ How to configure:
        1 - Quick Scan
        2 - Full System Scan
        3 - Custom File/Directory Scan
-         - Change the variable filedir to the wanted scan target.
+         * Change the variable filedir to the wanted scan target.
 
      **Default: 2**
    - To change the shutdown timer, change the variable of timer to another number, in seconds
