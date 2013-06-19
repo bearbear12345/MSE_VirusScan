@@ -8,11 +8,13 @@ Microsoft Security Essentials Scan Script
 This scan script will firstly update the MSE Virus Definitions, then start a scan, depending on the configurations.
 After the scan completes, by default, after 3 minutes the computer will turn off. A startup VBS file will be created which will run and delete itself on the next login of the account used to scan, notifying you of the results again.
 
+===================================================
 
 Prerequisites: 
 - Windows XP or later?
 - [Microsoft Scurity Essentials](http://windows.microsoft.com/en-au/windows/security-essentials-download)
 
+===================================================
 
 File: MSE VirusScan.bat
 - **CRC-32: 09fd92a2**
@@ -20,6 +22,7 @@ File: MSE VirusScan.bat
 - **MD5: 795eaa0406bd3c787034e62f9cb7f4a0**
 - **SHA-1: 0e485c3256786a6eb648b7acda0593b996563411**
 
+===================================================
 
 How to configure:
 
@@ -48,8 +51,8 @@ How to configure:
      **Default: 180 (3 minutes)**
 
 
-
 ===================================================
+
 Script by Andrew Wong (bearbear12345)
 
 Email: andrew.j.wong@outlook.com
