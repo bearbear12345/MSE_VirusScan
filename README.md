@@ -10,10 +10,10 @@ After the scan completes, by default, after 3 minutes the computer will turn off
 
 
 File: MSE VirusScan.bat
-**CRC-32: 09fd92a2**
-**MD4: 45fd1b5b6197d2e530d4a5176cd860b9**
-**MD5: 795eaa0406bd3c787034e62f9cb7f4a0**
-**SHA-1: 0e485c3256786a6eb648b7acda0593b996563411**
+-**CRC-32: 09fd92a2**
+-**MD4: 45fd1b5b6197d2e530d4a5176cd860b9**
+-**MD5: 795eaa0406bd3c787034e62f9cb7f4a0**
+-**SHA-1: 0e485c3256786a6eb648b7acda0593b996563411**
 
 
 How to configure:
@@ -21,8 +21,10 @@ How to configure:
 2) Open the file "MSE VirusScan.bat" (Or whatever you renamed it to)
 3) Configure Variables
    - If MSE is installed to a custom path, change the variable of SecurityEssentialsDirectory, removing quotes.
+
      **Default: C:\Program Files\Microsoft Security Client**
    - If you for some reason want to change the temporary directory, change the variable of tempdir, removing quotes.
+
      **Default: %APPDATA%**
    - Change the scan type from 0-3
      Types:
@@ -30,9 +32,11 @@ How to configure:
        1 - Quick Scan
        2 - Full System Scan
        3 - Custom File/Directory Scan
-         - Change the variable filedir to the wanted scan target
-     Default: 2
+         - Change the variable filedir to the wanted scan target.
+
+     **Default: 2**
    - To change the shutdown timer, change the variable of timer to another number, in seconds
+
      **Default: 180 (3 minutes)**
 
 
@@ -44,6 +48,5 @@ Prerequisites:
 
 
 Script by Andrew Wong (bearbear12345)
-Email: [andrew.j.wong@outlook.com](mailto:andrew.j.wong@outlook.com)
-Skype: [aw929292929683244](skype:aw929292929698324?chat)
-===================================================
+Email: andrew.j.wong@outlook.com)
+Skype: aw929292929683244
